@@ -1,0 +1,1 @@
+$(function(){$(".nav-item ,.nav-link").click(function(){$(".navbar-collapse").removeClass("show"),$("body").scrollspy({target:".navbar",offset:80})})});
